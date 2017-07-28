@@ -1,0 +1,98 @@
+*{box-sizing:border-box;
+text-decoration: none;
+font-family:  'Arial Narrow';}
+
+.window_with_shadow	{width: 705px;
+height: 428px;
+margin: 25px;
+border-radius: 8px;
+box-shadow: 
+5px 5px 9px 0px rgba(0,0,0,0.2),
+-5px -5px 9px 0px rgba(0,0,0,0.2);
+position: relative;}
+
+.cross_for_window {width: 28px;
+height: 28px;
+border-radius: 50%;
+position: absolute;
+top: -14px;
+right: -14px;
+background: black;
+border: 2px solid white;
+box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.3),
+-2px -2px 4px 0px rgba(0,0,0,0.3);
+z-index: 5;
+}
+
+.cross_for_window a {color: white;
+font-size: 18px;
+font-weight: bold;
+font-family: tahoma;
+display: block;
+margin: 0 0 0 4px;
+text-shadow: .5px .5px .5px white; 
+}
+
+table {		border-collapse: collapse;
+			width: 640px;
+			margin: 20px 0 0 -320px;
+			position: absolute;
+			left: 50%; } 
+
+tr, th, td {	padding: 4px;	
+				line-height: 38px;
+				text-align: left;}
+
+tbody th {color: red}
+
+tbody tr { border-top: 1px solid #dddddd} 
+
+.button1, .button2 {
+width: 30px;
+height: 30px;
+margin: 3px;
+background: #e7242a;
+display: inline-block;
+color: white;
+font-size: 25px;
+font-weight: bold;
+border:none;
+vertical-align: middle;
+}
+
+.button2 {width: 60px;
+background: #dc4e45;
+font-size: 10px;
+}
+
+.button1:hover, .button2:hover, .cross_for_window:hover,
+.gohome:hover {opacity: 0.5;}
+
+tfoot tr, tfoot td 
+{text-align: right;
+font-size: 15px;
+font-family:  'tahoma';
+line-height: 15px;
+}
+
+tfoot tr:first-child td {
+padding: 38px 0 8px 0; 
+font-weight: bold;
+color: #444444;
+}
+
+tfoot tr:last-child td{color:grey;}
+
+.gohome {
+width: 228px;
+color: red;
+font-style:italic;
+font-size: 25px;
+position: absolute;
+bottom: 24px; 
+left: 50%;
+margin: 0 0 0 -114px;
+font-weight: bold;
+}
+
+.gohome a:visited {color:red};

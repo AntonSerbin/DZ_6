@@ -1,7 +1,0 @@
-.first {background:violet }
-p.first:hover {background: brown;}
-p.first:active {background: gold;}
-
-p {background: green}
-p:hover{background: yellow;}
-p:active{background: red;}

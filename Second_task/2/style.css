@@ -1,0 +1,9 @@
+table {		border-collapse: collapse;
+			font-family:  'Arial Narrow';
+			width: 400px;}
+
+thead { border-bottom: 1px solid grey}
+
+tr, th, td {	padding: 4px;	
+				line-height: 28px;
+				text-align: left;}
